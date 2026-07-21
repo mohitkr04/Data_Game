@@ -1,0 +1,9 @@
+warehouse_id,warehouse_name,employee_count,daily_capacity,processing_time,utilization_rate,processed_orders_count
+WH-01,New Jersey Hub,49,2254,6.17,89.77,1771
+WH-02,Dallas Mega-Center,215,8600,2.54,69.02,1766
+WH-03,Chicago Midwest,106,5088,4.74,63.03,1711
+WH-04,LA Logistics,127,6604,8.14,82.95,1752
+WH-05,Seattle North,109,5341,5.82,86.29,1779
+WH-06,Atlanta South,148,7844,4.93,86.71,1721
+WH-07,Frankfurt EU Central,69,2829,5.62,71.21,1798
+WH-08,Tokyo East,209,8360,7.28,86.37,1817

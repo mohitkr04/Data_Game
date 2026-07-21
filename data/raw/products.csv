@@ -1,0 +1,246 @@
+product_id,category,sub_category,supplier,cost_price,selling_price,margin_percentage
+PROD-0001,Electronics,Smartphones,HomeComfort Inc,143.45,213.61,32.84
+PROD-0002,Electronics,Smartphones,AuraBeauty Group,57.02,79.85,28.59
+PROD-0003,Electronics,Smartphones,TechSupply Co,376.81,786.9,52.11
+PROD-0004,Electronics,Smartphones,HomeComfort Inc,220.43,524.96,58.01
+PROD-0005,Electronics,Smartphones,TechSupply Co,18.15,29.92,39.34
+PROD-0006,Electronics,Smartphones,AuraBeauty Group,371.41,749.05,50.42
+PROD-0007,Electronics,Smartphones,AuraBeauty Group,441.85,1072.75,58.81
+PROD-0008,Electronics,Smartphones,AuraBeauty Group,80.62,198.61,59.41
+PROD-0009,Electronics,Smartphones,HomeComfort Inc,425.76,717.7,40.68
+PROD-0010,Electronics,Smartphones,AuraBeauty Group,442.38,551.47,19.78
+PROD-0011,Electronics,Smartphones,TechSupply Co,299.03,462.3,35.32
+PROD-0012,Electronics,Smartphones,GlobalFashion Ltd,62.61,122.14,48.74
+PROD-0013,Electronics,Smartphones,HomeComfort Inc,141.33,292.11,51.62
+PROD-0014,Electronics,Laptops,TechSupply Co,245.29,419.54,41.53
+PROD-0015,Electronics,Laptops,HomeComfort Inc,85.91,170.24,49.54
+PROD-0016,Electronics,Laptops,AuraBeauty Group,374.01,740.54,49.49
+PROD-0017,Electronics,Laptops,Apex Logistics Pro,276.68,516.12,46.39
+PROD-0018,Electronics,Laptops,Apex Logistics Pro,177.77,319.04,44.28
+PROD-0019,Electronics,Laptops,HomeComfort Inc,445.35,968.44,54.01
+PROD-0020,Electronics,Laptops,AuraBeauty Group,196.6,352.8,44.27
+PROD-0021,Electronics,Laptops,TechSupply Co,227.34,467.66,51.39
+PROD-0022,Electronics,Laptops,TechSupply Co,212.35,444.24,52.2
+PROD-0023,Electronics,Laptops,GlobalFashion Ltd,151.49,262.66,42.32
+PROD-0024,Electronics,Laptops,AuraBeauty Group,389.5,633.94,38.56
+PROD-0025,Electronics,Laptops,GlobalFashion Ltd,434.17,618.37,29.79
+PROD-0026,Electronics,Audio & Headphones,AuraBeauty Group,112.55,202.9,44.53
+PROD-0027,Electronics,Audio & Headphones,GlobalFashion Ltd,359.85,774.05,53.51
+PROD-0028,Electronics,Audio & Headphones,HomeComfort Inc,82.64,124.6,33.68
+PROD-0029,Electronics,Audio & Headphones,HomeComfort Inc,260.99,413.33,36.86
+PROD-0030,Electronics,Audio & Headphones,Apex Logistics Pro,192.93,353.56,45.43
+PROD-0031,Electronics,Audio & Headphones,TechSupply Co,269.44,411.26,34.48
+PROD-0032,Electronics,Audio & Headphones,TechSupply Co,77.6,133.33,41.8
+PROD-0033,Electronics,Audio & Headphones,GlobalFashion Ltd,41.5,78.22,46.94
+PROD-0034,Electronics,Wearables,Apex Logistics Pro,378.62,512.9,26.18
+PROD-0035,Electronics,Wearables,GlobalFashion Ltd,55.17,71.96,23.33
+PROD-0036,Electronics,Wearables,Apex Logistics Pro,382.3,498.87,23.37
+PROD-0037,Electronics,Wearables,AuraBeauty Group,442.64,737.36,39.97
+PROD-0038,Electronics,Wearables,HomeComfort Inc,151.3,199.58,24.19
+PROD-0039,Electronics,Wearables,AuraBeauty Group,265.61,521.03,49.02
+PROD-0040,Electronics,Wearables,AuraBeauty Group,224.74,360.56,37.67
+PROD-0041,Electronics,Wearables,GlobalFashion Ltd,169.02,273.25,38.14
+PROD-0042,Electronics,Wearables,HomeComfort Inc,194.64,320.05,39.18
+PROD-0043,Electronics,Accessories,Apex Logistics Pro,305.61,484.25,36.89
+PROD-0044,Electronics,Accessories,HomeComfort Inc,161.12,284.55,43.38
+PROD-0045,Electronics,Accessories,HomeComfort Inc,6.76,12.44,45.66
+PROD-0046,Electronics,Accessories,GlobalFashion Ltd,118.84,151.28,21.44
+PROD-0047,Electronics,Accessories,TechSupply Co,410.4,664.5,38.24
+PROD-0048,Electronics,Accessories,AuraBeauty Group,194.61,442.84,56.05
+PROD-0049,Electronics,Accessories,HomeComfort Inc,79.22,182.63,56.62
+PROD-0050,Electronics,Accessories,GlobalFashion Ltd,112.53,221.21,49.13
+PROD-0051,Electronics,Accessories,AuraBeauty Group,310.13,737.03,57.92
+PROD-0052,Apparel & Fashion,Men Clothing,Apex Logistics Pro,275.4,492.75,44.11
+PROD-0053,Apparel & Fashion,Men Clothing,GlobalFashion Ltd,259.66,379.81,31.63
+PROD-0054,Apparel & Fashion,Men Clothing,TechSupply Co,311.64,449.68,30.7
+PROD-0055,Apparel & Fashion,Men Clothing,TechSupply Co,252.98,516.56,51.03
+PROD-0056,Apparel & Fashion,Men Clothing,Apex Logistics Pro,404.87,722.79,43.99
+PROD-0057,Apparel & Fashion,Men Clothing,Apex Logistics Pro,350.02,496.25,29.47
+PROD-0058,Apparel & Fashion,Men Clothing,GlobalFashion Ltd,74.51,140.25,46.87
+PROD-0059,Apparel & Fashion,Men Clothing,TechSupply Co,270.37,546.7,50.55
+PROD-0060,Apparel & Fashion,Men Clothing,AuraBeauty Group,336.82,533.32,36.84
+PROD-0061,Apparel & Fashion,Men Clothing,GlobalFashion Ltd,282.06,407.46,30.78
+PROD-0062,Apparel & Fashion,Men Clothing,HomeComfort Inc,102.45,131.9,22.33
+PROD-0063,Apparel & Fashion,Women Clothing,GlobalFashion Ltd,337.42,627.29,46.21
+PROD-0064,Apparel & Fashion,Women Clothing,TechSupply Co,110.99,213.45,48.0
+PROD-0065,Apparel & Fashion,Women Clothing,AuraBeauty Group,162.64,372.18,56.3
+PROD-0066,Apparel & Fashion,Women Clothing,Apex Logistics Pro,240.03,297.34,19.27
+PROD-0067,Apparel & Fashion,Women Clothing,AuraBeauty Group,443.37,574.87,22.87
+PROD-0068,Apparel & Fashion,Women Clothing,Apex Logistics Pro,314.7,556.53,43.45
+PROD-0069,Apparel & Fashion,Women Clothing,HomeComfort Inc,115.95,241.11,51.91
+PROD-0070,Apparel & Fashion,Women Clothing,GlobalFashion Ltd,61.02,141.31,56.82
+PROD-0071,Apparel & Fashion,Women Clothing,TechSupply Co,116.52,194.58,40.12
+PROD-0072,Apparel & Fashion,Women Clothing,HomeComfort Inc,286.53,344.22,16.76
+PROD-0073,Apparel & Fashion,Women Clothing,GlobalFashion Ltd,215.37,508.82,57.67
+PROD-0074,Apparel & Fashion,Women Clothing,Apex Logistics Pro,307.78,524.54,41.32
+PROD-0075,Apparel & Fashion,Women Clothing,TechSupply Co,298.89,722.58,58.64
+PROD-0076,Apparel & Fashion,Footwear,Apex Logistics Pro,88.57,167.52,47.13
+PROD-0077,Apparel & Fashion,Footwear,AuraBeauty Group,109.46,252.91,56.72
+PROD-0078,Apparel & Fashion,Footwear,AuraBeauty Group,325.87,730.4,55.38
+PROD-0079,Apparel & Fashion,Footwear,AuraBeauty Group,424.64,637.81,33.42
+PROD-0080,Apparel & Fashion,Footwear,TechSupply Co,26.68,42.11,36.64
+PROD-0081,Apparel & Fashion,Footwear,GlobalFashion Ltd,182.62,367.56,50.32
+PROD-0082,Apparel & Fashion,Footwear,GlobalFashion Ltd,359.98,595.67,39.57
+PROD-0083,Apparel & Fashion,Footwear,GlobalFashion Ltd,215.71,479.12,54.98
+PROD-0084,Apparel & Fashion,Watches,HomeComfort Inc,105.27,156.04,32.54
+PROD-0085,Apparel & Fashion,Watches,HomeComfort Inc,267.21,472.13,43.4
+PROD-0086,Apparel & Fashion,Watches,AuraBeauty Group,427.26,711.02,39.91
+PROD-0087,Apparel & Fashion,Watches,AuraBeauty Group,343.0,671.6,48.93
+PROD-0088,Apparel & Fashion,Watches,GlobalFashion Ltd,29.29,38.36,23.64
+PROD-0089,Apparel & Fashion,Watches,AuraBeauty Group,95.4,132.23,27.85
+PROD-0090,Apparel & Fashion,Watches,GlobalFashion Ltd,151.57,295.97,48.79
+PROD-0091,Apparel & Fashion,Watches,Apex Logistics Pro,273.05,536.3,49.09
+PROD-0092,Apparel & Fashion,Watches,GlobalFashion Ltd,57.34,113.55,49.5
+PROD-0093,Apparel & Fashion,Watches,HomeComfort Inc,187.34,444.74,57.88
+PROD-0094,Apparel & Fashion,Watches,GlobalFashion Ltd,410.83,903.26,54.52
+PROD-0095,Apparel & Fashion,Watches,AuraBeauty Group,317.88,428.96,25.9
+PROD-0096,Apparel & Fashion,Watches,GlobalFashion Ltd,42.69,97.89,56.39
+PROD-0097,Apparel & Fashion,Watches,AuraBeauty Group,195.02,348.46,44.03
+PROD-0098,Apparel & Fashion,Bags,GlobalFashion Ltd,382.27,767.54,50.2
+PROD-0099,Apparel & Fashion,Bags,TechSupply Co,84.84,125.08,32.17
+PROD-0100,Apparel & Fashion,Bags,HomeComfort Inc,7.84,16.65,52.91
+PROD-0101,Apparel & Fashion,Bags,HomeComfort Inc,221.1,538.37,58.93
+PROD-0102,Apparel & Fashion,Bags,GlobalFashion Ltd,322.74,430.57,25.04
+PROD-0103,Apparel & Fashion,Bags,Apex Logistics Pro,76.89,142.42,46.01
+PROD-0104,Apparel & Fashion,Bags,AuraBeauty Group,416.57,633.78,34.27
+PROD-0105,Apparel & Fashion,Bags,GlobalFashion Ltd,372.38,598.03,37.73
+PROD-0106,Apparel & Fashion,Bags,HomeComfort Inc,125.1,296.71,57.84
+PROD-0107,Apparel & Fashion,Bags,Apex Logistics Pro,26.02,53.57,51.43
+PROD-0108,Apparel & Fashion,Bags,AuraBeauty Group,24.21,54.25,55.37
+PROD-0109,Apparel & Fashion,Bags,TechSupply Co,374.08,883.34,57.65
+PROD-0110,Apparel & Fashion,Bags,TechSupply Co,87.81,119.58,26.57
+PROD-0111,Apparel & Fashion,Bags,AuraBeauty Group,229.07,355.77,35.61
+PROD-0112,Home & Kitchen,Furniture,HomeComfort Inc,274.8,513.29,46.46
+PROD-0113,Home & Kitchen,Furniture,AuraBeauty Group,69.46,150.11,53.73
+PROD-0114,Home & Kitchen,Furniture,GlobalFashion Ltd,362.68,889.28,59.22
+PROD-0115,Home & Kitchen,Furniture,AuraBeauty Group,181.01,296.69,38.99
+PROD-0116,Home & Kitchen,Furniture,AuraBeauty Group,90.56,129.96,30.32
+PROD-0117,Home & Kitchen,Furniture,Apex Logistics Pro,147.87,366.18,59.62
+PROD-0118,Home & Kitchen,Furniture,HomeComfort Inc,46.06,70.8,34.94
+PROD-0119,Home & Kitchen,Furniture,TechSupply Co,43.26,67.3,35.72
+PROD-0120,Home & Kitchen,Furniture,TechSupply Co,46.12,85.82,46.26
+PROD-0121,Home & Kitchen,Cookware,TechSupply Co,200.07,285.35,29.89
+PROD-0122,Home & Kitchen,Cookware,TechSupply Co,82.79,166.73,50.34
+PROD-0123,Home & Kitchen,Cookware,HomeComfort Inc,177.27,225.67,21.45
+PROD-0124,Home & Kitchen,Cookware,GlobalFashion Ltd,414.49,715.59,42.08
+PROD-0125,Home & Kitchen,Cookware,AuraBeauty Group,268.02,630.12,57.47
+PROD-0126,Home & Kitchen,Cookware,HomeComfort Inc,183.96,417.01,55.89
+PROD-0127,Home & Kitchen,Cookware,Apex Logistics Pro,412.06,587.72,29.89
+PROD-0128,Home & Kitchen,Cookware,Apex Logistics Pro,402.16,545.24,26.24
+PROD-0129,Home & Kitchen,Cookware,TechSupply Co,127.43,286.8,55.57
+PROD-0130,Home & Kitchen,Cookware,TechSupply Co,405.8,847.87,52.14
+PROD-0131,Home & Kitchen,Cookware,HomeComfort Inc,51.65,97.1,46.81
+PROD-0132,Home & Kitchen,Cookware,Apex Logistics Pro,259.82,406.99,36.16
+PROD-0133,Home & Kitchen,Home Decor,AuraBeauty Group,446.13,730.01,38.89
+PROD-0134,Home & Kitchen,Home Decor,HomeComfort Inc,98.56,132.38,25.55
+PROD-0135,Home & Kitchen,Home Decor,AuraBeauty Group,173.43,364.27,52.39
+PROD-0136,Home & Kitchen,Home Decor,HomeComfort Inc,107.98,237.6,54.55
+PROD-0137,Home & Kitchen,Home Decor,GlobalFashion Ltd,65.25,115.66,43.58
+PROD-0138,Home & Kitchen,Home Decor,Apex Logistics Pro,317.56,436.93,27.32
+PROD-0139,Home & Kitchen,Home Decor,TechSupply Co,271.04,606.76,55.33
+PROD-0140,Home & Kitchen,Home Decor,Apex Logistics Pro,270.02,503.56,46.38
+PROD-0141,Home & Kitchen,Home Decor,GlobalFashion Ltd,378.04,937.93,59.69
+PROD-0142,Home & Kitchen,Home Decor,HomeComfort Inc,85.68,179.82,52.35
+PROD-0143,Home & Kitchen,Home Decor,GlobalFashion Ltd,40.89,51.35,20.37
+PROD-0144,Home & Kitchen,Home Decor,Apex Logistics Pro,129.96,319.99,59.39
+PROD-0145,Home & Kitchen,Bedding,HomeComfort Inc,250.73,388.32,35.43
+PROD-0146,Home & Kitchen,Bedding,AuraBeauty Group,64.0,153.36,58.27
+PROD-0147,Home & Kitchen,Bedding,GlobalFashion Ltd,166.25,265.78,37.45
+PROD-0148,Home & Kitchen,Bedding,TechSupply Co,386.79,768.06,49.64
+PROD-0149,Home & Kitchen,Bedding,HomeComfort Inc,80.04,139.91,42.79
+PROD-0150,Home & Kitchen,Bedding,Apex Logistics Pro,418.06,991.46,57.83
+PROD-0151,Home & Kitchen,Bedding,AuraBeauty Group,36.2,56.08,35.45
+PROD-0152,Home & Kitchen,Bedding,GlobalFashion Ltd,73.77,139.72,47.2
+PROD-0153,Home & Kitchen,Bedding,HomeComfort Inc,338.74,536.63,36.88
+PROD-0154,Home & Kitchen,Bedding,TechSupply Co,342.31,708.35,51.68
+PROD-0155,Home & Kitchen,Bedding,HomeComfort Inc,329.06,800.51,58.89
+PROD-0156,Home & Kitchen,Lighting,GlobalFashion Ltd,193.95,319.11,39.22
+PROD-0157,Home & Kitchen,Lighting,AuraBeauty Group,309.31,695.89,55.55
+PROD-0158,Home & Kitchen,Lighting,HomeComfort Inc,90.19,207.51,56.54
+PROD-0159,Home & Kitchen,Lighting,HomeComfort Inc,30.74,37.14,17.23
+PROD-0160,Home & Kitchen,Lighting,AuraBeauty Group,75.5,186.66,59.55
+PROD-0161,Home & Kitchen,Lighting,HomeComfort Inc,237.99,300.0,20.67
+PROD-0162,Home & Kitchen,Lighting,HomeComfort Inc,448.74,973.04,53.88
+PROD-0163,Home & Kitchen,Lighting,Apex Logistics Pro,377.91,558.11,32.29
+PROD-0164,Beauty & Health,Skincare,HomeComfort Inc,51.92,97.07,46.51
+PROD-0165,Beauty & Health,Skincare,Apex Logistics Pro,348.62,707.39,50.72
+PROD-0166,Beauty & Health,Skincare,HomeComfort Inc,285.82,624.3,54.22
+PROD-0167,Beauty & Health,Skincare,AuraBeauty Group,106.02,218.4,51.46
+PROD-0168,Beauty & Health,Skincare,GlobalFashion Ltd,179.49,231.66,22.52
+PROD-0169,Beauty & Health,Skincare,HomeComfort Inc,94.95,211.95,55.2
+PROD-0170,Beauty & Health,Skincare,AuraBeauty Group,403.69,632.85,36.21
+PROD-0171,Beauty & Health,Skincare,GlobalFashion Ltd,89.71,110.77,19.01
+PROD-0172,Beauty & Health,Skincare,Apex Logistics Pro,426.73,891.44,52.13
+PROD-0173,Beauty & Health,Skincare,AuraBeauty Group,430.88,1000.94,56.95
+PROD-0174,Beauty & Health,Skincare,TechSupply Co,156.51,210.74,25.73
+PROD-0175,Beauty & Health,Skincare,GlobalFashion Ltd,227.08,280.41,19.02
+PROD-0176,Beauty & Health,Skincare,GlobalFashion Ltd,71.71,107.81,33.48
+PROD-0177,Beauty & Health,Skincare,TechSupply Co,301.21,561.11,46.32
+PROD-0178,Beauty & Health,Haircare,GlobalFashion Ltd,139.58,269.98,48.3
+PROD-0179,Beauty & Health,Haircare,TechSupply Co,60.72,132.52,54.18
+PROD-0180,Beauty & Health,Haircare,AuraBeauty Group,321.86,476.82,32.5
+PROD-0181,Beauty & Health,Haircare,HomeComfort Inc,274.84,509.63,46.07
+PROD-0182,Beauty & Health,Haircare,GlobalFashion Ltd,32.06,50.06,35.96
+PROD-0183,Beauty & Health,Haircare,AuraBeauty Group,449.77,597.92,24.78
+PROD-0184,Beauty & Health,Haircare,AuraBeauty Group,230.35,530.76,56.6
+PROD-0185,Beauty & Health,Haircare,TechSupply Co,138.79,213.59,35.02
+PROD-0186,Beauty & Health,Haircare,AuraBeauty Group,401.4,640.75,37.35
+PROD-0187,Beauty & Health,Personal Care,AuraBeauty Group,294.91,637.72,53.76
+PROD-0188,Beauty & Health,Personal Care,HomeComfort Inc,355.93,887.4,59.89
+PROD-0189,Beauty & Health,Personal Care,Apex Logistics Pro,362.42,744.45,51.32
+PROD-0190,Beauty & Health,Personal Care,AuraBeauty Group,403.48,959.26,57.94
+PROD-0191,Beauty & Health,Personal Care,AuraBeauty Group,438.06,967.85,54.74
+PROD-0192,Beauty & Health,Personal Care,AuraBeauty Group,91.74,194.74,52.89
+PROD-0193,Beauty & Health,Personal Care,TechSupply Co,38.43,62.0,38.02
+PROD-0194,Beauty & Health,Personal Care,GlobalFashion Ltd,56.53,137.65,58.93
+PROD-0195,Beauty & Health,Fitness Equipment,HomeComfort Inc,155.75,331.31,52.99
+PROD-0196,Beauty & Health,Fitness Equipment,TechSupply Co,259.24,347.32,25.36
+PROD-0197,Beauty & Health,Fitness Equipment,GlobalFashion Ltd,254.8,524.72,51.44
+PROD-0198,Beauty & Health,Fitness Equipment,HomeComfort Inc,397.28,512.93,22.55
+PROD-0199,Beauty & Health,Fitness Equipment,GlobalFashion Ltd,136.56,286.78,52.38
+PROD-0200,Beauty & Health,Fitness Equipment,GlobalFashion Ltd,20.28,29.7,31.72
+PROD-0201,Beauty & Health,Fitness Equipment,Apex Logistics Pro,102.31,211.79,51.69
+PROD-0202,Beauty & Health,Fitness Equipment,HomeComfort Inc,132.25,261.79,49.48
+PROD-0203,Office & Toys,Office Supplies,Apex Logistics Pro,434.58,969.64,55.18
+PROD-0204,Office & Toys,Office Supplies,GlobalFashion Ltd,153.14,277.81,44.88
+PROD-0205,Office & Toys,Office Supplies,Apex Logistics Pro,94.3,115.09,18.06
+PROD-0206,Office & Toys,Office Supplies,TechSupply Co,133.92,225.02,40.49
+PROD-0207,Office & Toys,Office Supplies,Apex Logistics Pro,256.14,621.73,58.8
+PROD-0208,Office & Toys,Office Supplies,Apex Logistics Pro,426.79,551.04,22.55
+PROD-0209,Office & Toys,Office Supplies,GlobalFashion Ltd,278.52,349.56,20.32
+PROD-0210,Office & Toys,Office Supplies,AuraBeauty Group,293.4,396.97,26.09
+PROD-0211,Office & Toys,Office Supplies,TechSupply Co,426.15,990.22,56.96
+PROD-0212,Office & Toys,Office Supplies,GlobalFashion Ltd,14.94,33.12,54.89
+PROD-0213,Office & Toys,Office Supplies,AuraBeauty Group,287.97,531.01,45.77
+PROD-0214,Office & Toys,Office Supplies,TechSupply Co,273.17,568.66,51.96
+PROD-0215,Office & Toys,Board Games,TechSupply Co,398.58,875.91,54.5
+PROD-0216,Office & Toys,Board Games,HomeComfort Inc,261.04,593.08,55.99
+PROD-0217,Office & Toys,Board Games,TechSupply Co,444.18,706.35,37.12
+PROD-0218,Office & Toys,Board Games,AuraBeauty Group,57.7,124.11,53.51
+PROD-0219,Office & Toys,Board Games,HomeComfort Inc,440.48,595.4,26.02
+PROD-0220,Office & Toys,Board Games,Apex Logistics Pro,197.11,252.49,21.93
+PROD-0221,Office & Toys,Board Games,TechSupply Co,350.56,853.03,58.9
+PROD-0222,Office & Toys,Board Games,HomeComfort Inc,227.05,393.34,42.28
+PROD-0223,Office & Toys,Board Games,GlobalFashion Ltd,408.93,561.63,27.19
+PROD-0224,Office & Toys,Board Games,TechSupply Co,401.76,686.91,41.51
+PROD-0225,Office & Toys,Educational Toys,AuraBeauty Group,253.94,479.13,47.0
+PROD-0226,Office & Toys,Educational Toys,AuraBeauty Group,279.11,676.77,58.76
+PROD-0227,Office & Toys,Educational Toys,AuraBeauty Group,428.25,976.62,56.15
+PROD-0228,Office & Toys,Educational Toys,HomeComfort Inc,90.24,147.41,38.78
+PROD-0229,Office & Toys,Educational Toys,Apex Logistics Pro,222.08,527.91,57.93
+PROD-0230,Office & Toys,Educational Toys,TechSupply Co,236.78,585.0,59.52
+PROD-0231,Office & Toys,Educational Toys,HomeComfort Inc,442.81,875.95,49.45
+PROD-0232,Office & Toys,Educational Toys,TechSupply Co,395.49,988.33,59.98
+PROD-0233,Office & Toys,Stationery,Apex Logistics Pro,383.12,786.92,51.31
+PROD-0234,Office & Toys,Stationery,AuraBeauty Group,381.08,498.24,23.51
+PROD-0235,Office & Toys,Stationery,HomeComfort Inc,287.5,425.93,32.5
+PROD-0236,Office & Toys,Stationery,Apex Logistics Pro,56.65,133.74,57.64
+PROD-0237,Office & Toys,Stationery,GlobalFashion Ltd,289.64,439.27,34.06
+PROD-0238,Office & Toys,Stationery,GlobalFashion Ltd,177.12,436.65,59.44
+PROD-0239,Office & Toys,Stationery,TechSupply Co,388.67,474.28,18.05
+PROD-0240,Office & Toys,Stationery,HomeComfort Inc,441.01,740.49,40.44
+PROD-0241,Office & Toys,Stationery,HomeComfort Inc,314.46,668.69,52.97
+PROD-0242,Office & Toys,Stationery,TechSupply Co,410.7,965.38,57.46
+PROD-0243,Office & Toys,Stationery,TechSupply Co,130.37,265.51,50.9
+PROD-0244,Office & Toys,Stationery,Apex Logistics Pro,180.2,339.35,46.9
+PROD-0245,Office & Toys,Stationery,Apex Logistics Pro,251.83,431.95,41.7
