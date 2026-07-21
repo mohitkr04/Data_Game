@@ -8,13 +8,8 @@ DB_PATH = os.path.join(BASE_DIR, 'data_game.db')
 PROCESSED_DIR = os.path.join(BASE_DIR, 'data', 'processed')
 
 def run_operations_optimization():
-    print("--------------------------------------------------")
-    print("Executing Operations & Logistics Optimization Engine...")
-    print("--------------------------------------------------")
-    
     conn = sqlite3.connect(DB_PATH)
     
-    # 1. Courier Delivery SLA & Delay Root Cause Analysis
     courier_query = """
     SELECT 
         d.courier_partner,
@@ -28,7 +23,6 @@ def run_operations_optimization():
     """
     courier_df = pd.read_sql_query(courier_query, conn)
     
-    # 2. Warehouse Efficiency & Utilization Analysis
     wh_query = """
     SELECT 
         w.warehouse_id,
@@ -44,7 +38,6 @@ def run_operations_optimization():
     """
     wh_df = pd.read_sql_query(wh_query, conn)
     
-    # 3. Inventory Stock-out Risk & Reorder Optimization
     inv_query = """
     SELECT 
         i.product_id,
@@ -66,18 +59,11 @@ def run_operations_optimization():
     inv_df = pd.read_sql_query(inv_query, conn)
     conn.close()
     
-    print("\n--- Warehouse Efficiency Highlights ---")
-    print(wh_df[['warehouse_name', 'employee_count', 'processing_time', 'utilization_rate']])
-    
-    print("\n--- Inventory Reorder Alerts Breakdown ---")
-    print(inv_df['stock_status'].value_counts())
-    
-    # Export Operational Reports
     courier_df.to_csv(os.path.join(PROCESSED_DIR, 'courier_sla_analysis.csv'), index=False)
     wh_df.to_csv(os.path.join(PROCESSED_DIR, 'warehouse_efficiency.csv'), index=False)
     inv_df.to_csv(os.path.join(PROCESSED_DIR, 'inventory_reorder_alerts.csv'), index=False)
     
-    print(f"\nExported Operational Optimization reports to '{PROCESSED_DIR}'")
+    print("Operations optimization analysis complete.")
     return wh_df, courier_df, inv_df
 
 if __name__ == '__main__':

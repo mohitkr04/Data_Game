@@ -10,18 +10,16 @@ INDEXES_PATH = os.path.join(BASE_DIR, 'database', 'indexes.sql')
 ADV_QUERIES_PATH = os.path.join(BASE_DIR, 'database', 'advanced_queries.sql')
 
 def run_db_loader():
-    print(f"Connecting to database at: {DB_PATH}")
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    # 1. Execute DDL Schema
-    print("Executing DDL Schema (database/schema.sql)...")
+    # Create tables
     with open(SCHEMA_PATH, 'r') as f:
         schema_sql = f.read()
     cursor.executescript(schema_sql)
     conn.commit()
 
-    # 2. Ingest CSV Files
+    # Load raw datasets
     csv_files = [
         'customers.csv', 'products.csv', 'orders.csv', 
         'warehouse_operations.csv', 'inventory.csv', 'delivery.csv', 
@@ -29,33 +27,25 @@ def run_db_loader():
         'marketing_campaign.csv', 'reviews.csv'
     ]
 
-    print("\nIngesting raw CSV files into database tables...")
     for csv_file in csv_files:
         table_name = csv_file.replace('.csv', '')
         file_path = os.path.join(DATA_RAW_DIR, csv_file)
         if os.path.exists(file_path):
             df = pd.read_csv(file_path)
-            # Append data to table
             df.to_sql(table_name, conn, if_exists='replace', index=False)
-            print(f" Loaded {len(df):>6} rows into table '{table_name}'")
-        else:
-            print(f" WARNING: File {csv_file} not found!")
 
-    # 3. Apply Indexing Strategy
-    print("\nApplying Indexing Strategy (database/indexes.sql)...")
+    # Apply indexes and analytical views
     with open(INDEXES_PATH, 'r') as f:
         indexes_sql = f.read()
     cursor.executescript(indexes_sql)
     conn.commit()
 
-    # 4. Create Analytical SQL Views
-    print("\nCreating Advanced Analytical SQL Views (database/advanced_queries.sql)...")
     with open(ADV_QUERIES_PATH, 'r') as f:
         adv_sql = f.read()
     cursor.executescript(adv_sql)
     conn.commit()
 
-    print("\nDatabase initialization complete! Database ready for SQL queries and analytics.")
+    print("Database built and views created successfully.")
     conn.close()
 
 if __name__ == '__main__':
